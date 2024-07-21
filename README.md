@@ -114,10 +114,10 @@ For any inquiries, please contact sutarbhakti04@gmail.com.
 
 <h2> ScreenShots</h2>
 <h3>Home Page</h3>
-<img src = ""></img>
+<img src ="./ScreenShots/Home_Page.png"></img>
 <br>
 
 <h3>Add Task</h3>
-<img src = ""></img>
+<img src = "./ScreenShots/Add_Task.png"></img>
 <br>
 
