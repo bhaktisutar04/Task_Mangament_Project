@@ -1,0 +1,23 @@
+<div class="task-list-container">
+  <h2>Task List</h2>
+  <table class="task-table">
+    <thead>
+      <tr>
+        <th>Title</th>
+        <th>Description</th>
+        <th>Actions</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let task of tasks">
+        <td>{{ task.title }}</td>
+        <td>{{ task.description }}</td>
+        <td>
+          <button (click)="deleteTask(task.id)">Delete</button>
+          <button [routerLink]="['/edit', task.id]">Edit</button>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+  <button class="add-task-button" [routerLink]="['/create']">Add Task</button>
+</div>
